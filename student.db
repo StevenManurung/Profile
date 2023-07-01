@@ -1,0 +1,37 @@
+--
+-- Database: `student`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `student_table`
+--
+
+CREATE TABLE `student_table` (
+  `id` int(11) NOT NULL,
+  `first_name` varchar(200) NOT NULL,
+  `last_name` varchar(200) NOT NULL,
+  `email` varchar(300) NOT NULL,
+  `gender` varchar(30) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `student_table`
+--
+ALTER TABLE `student_table`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `student_table`
+--
+ALTER TABLE `student_table`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
